@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BC30468E-3582-4E0C-8A04-05356B95E9DB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8C5F736-C32D-4E9E-B85E-AEB581978B78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Countries/Scene/Country/CountryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "CountryViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "F8C5F736-C32D-4E9E-B85E-AEB581978B78 - 25a626043d2c38a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.deinit"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "F8C5F736-C32D-4E9E-B85E-AEB581978B78 - 4239f40056b26ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.__deallocating_deinit"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F8C5F736-C32D-4E9E-B85E-AEB581978B78 - cb7b761ba2388a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.__allocating_init() -&gt; Countries.CountryViewModel"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "F8C5F736-C32D-4E9E-B85E-AEB581978B78 - 5caac4f031903024"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.init() -&gt; Countries.CountryViewModel"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EA87FE2-BA18-46BC-81FA-B69C0249BAA5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Countries/Scene/Country/CountryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "7EA87FE2-BA18-46BC-81FA-B69C0249BAA5 - 25a626043d2c38a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.deinit"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7EA87FE2-BA18-46BC-81FA-B69C0249BAA5 - 4239f40056b26ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.__deallocating_deinit"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "7EA87FE2-BA18-46BC-81FA-B69C0249BAA5 - cb7b761ba2388a88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.__allocating_init() -&gt; Countries.CountryViewModel"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "7EA87FE2-BA18-46BC-81FA-B69C0249BAA5 - 5caac4f031903024"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Countries.CountryViewModel.init() -&gt; Countries.CountryViewModel"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Country/CountryViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "70">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "555C54CD-ECB1-4D4B-8F5D-CE76C89F15A7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Countries/Scene/HomePage/HomePageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "HomePageViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D30E2960-E9BC-45D7-997D-8B4DBFD6C89B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Countries/Scene/Detail/DetailCardViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getCountryDetail()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D30E2960-E9BC-45D7-997D-8B4DBFD6C89B - d6d7f1dacf8042d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Countries.CountryDetailModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Countries.DetailCardViewModel.getCountryDetail() -&gt; ()"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Detail/DetailCardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "D30E2960-E9BC-45D7-997D-8B4DBFD6C89B - d6d7f1dacf8042d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Countries.CountryDetailModel&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Countries.DetailCardViewModel.getCountryDetail() -&gt; ()"
+                  moduleName = "Countries"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sedatdalkiran/Desktop/Adesso%20Case/CountriesApp/Countries/Countries/Scene/Detail/DetailCardViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "119">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20CC21C6-D466-4503-856B-C23664C04E6C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Countries/Network/Network.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "getCountryDetail(code:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
