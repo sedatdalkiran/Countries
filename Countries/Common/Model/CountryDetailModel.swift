@@ -17,9 +17,9 @@ struct CountryDetailDataModel: Decodable {
   let flagImageURI: String
   let wikiDataID: String
   
-  enum CodingKeys: String, CodingKey {
+ /* enum CodingKeys: String, CodingKey {
     case wikiDataID = "wikiDataId"
     case flagImageURI = "flagImageUri"
     case name, code
-  }
+  }*/
 }

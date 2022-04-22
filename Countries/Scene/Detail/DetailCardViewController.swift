@@ -6,39 +6,51 @@
 //
 
 import UIKit
+import SDWebImage
 
 class DetailCardViewController: UIViewController {
     
     private var countryDetails = [CountryDetailDataModel]()
     
-    @IBOutlet weak var countryFlag: UIStackView!
+    @IBOutlet weak var countryFlag: UIImageView!
     @IBOutlet weak var countryCode: UILabel!
     @IBOutlet weak var furtherInformation: UIButton!
+    
+    var country: CountryDetailDataModel?
     
     var viewModel: DetailCardViewModelProtocol?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        viewModel?.getCountryDetail()
         
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel?.getCountryDetail()
+        viewModel?.delegate = self
+        
         
     }
     @IBAction func furtherInformation(_ sender: Any) {
-        //let urlString = "https://www.wikidata.org/wiki/\(wikiDataId)"
-        //if let url = URL(string: urlString) {
-          //  UIApplication.shared.open(url, completionHandler: nil)
+        if let url = URL(string: "https://www.wikidata.org/wiki/\(country?.wikiDataID)") {
+                  UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }
         
     }
-//}
-    extension DetailCardViewController: DetailCardViewModelDelegate {
-        func updateCountryDetail(countryDetail: [CountryDetailDataModel]?) {
-            print(countryDetail)
-        }
+}
+extension DetailCardViewController: DetailCardViewModelDelegate {
+    func updateCountryDetail(countryDetail: CountryDetailDataModel?) {
+        let transformer = SDImageResizingTransformer(size: CGSize(width: 414, height: 323), scaleMode: .fill)
+        
+        countryFlag.sd_setImage(with: URL(string: (country?.flagImageURI)!), placeholderImage: UIImage(named: "customImage"),context: [.imageTransformer: transformer])
+        self.countryCode.text = country?.code
+        print("***JSON***")
+        print(country)
+        print("***JSON***")
+
+    }
+    
     }
     
 /* some : CountryDetailDataModel

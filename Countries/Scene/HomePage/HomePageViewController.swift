@@ -43,7 +43,7 @@ extension HomePageViewController: CountryViewModelDelegate {
         print("*** DATA ***")
         print(countries)
         print("*** DATA ***")
-        ////
+        
     }
     
 }
@@ -60,6 +60,8 @@ extension HomePageViewController: UITableViewDataSource {
         } else {
             return UITableViewCell()
         }
+        
+
     }
     
     

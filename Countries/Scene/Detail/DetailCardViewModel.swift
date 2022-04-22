@@ -18,7 +18,7 @@ protocol DetailCardViewModelProtocol {
 }
 
 protocol DetailCardViewModelDelegate {
-    func updateCountryDetail(countryDetail: [CountryDetailDataModel]?)
+    func updateCountryDetail(countryDetail: CountryDetailDataModel?)
 }
 
 final class DetailCardViewModel: DetailCardViewModelProtocol {
@@ -31,7 +31,7 @@ final class DetailCardViewModel: DetailCardViewModelProtocol {
     func getCountryDetail() {
         service.getCountryDetail(code: self.code) { response, error in
             if let response = response {
-                //self.delegate?.updateCountryDetail(countryDetail: response.data)
+                self.delegate?.updateCountryDetail(countryDetail: response.data) //send info to DetailCardViewController
             }
             
             }
