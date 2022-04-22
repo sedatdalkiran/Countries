@@ -1,4 +1,4 @@
-# Countries
+# Countries with MVVM
 
 In this application, I showed the data I received from the endpoint on the opening screen of the application.
 I aimed to show the details of the countries on the page that will open when the countries are clicked, 
